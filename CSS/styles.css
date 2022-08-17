@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    background-color: black;
+    text-align: right;
+}
+#header > a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 15px;
+}
+.dropbtn{
+    background-color: green;
+    color: blanchedalmond;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0px;
+    min-width: 200px;
+    background-color: rgb(160, 130, 130);
+    z-index: 1;
+    padding: 5px;
+    font-size: 17px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    cursor: pointer;
+}
+.dropdown:hover .dropbtn{
+    background-color: red;
+}
+#left-align{
+    background-color: rgb(255, 187, 0);
+}
+#title-section{
+    position: absolute;
+    top:40px;
+    left:150px;
+    padding: 10px 10px;
+}
+#logo-section img{
+    width:150px;
+    height: 150px;
+}
+#title-section h1{
+    font-weight: bold;
+    font-size: 62px;
+}
+#search-bar{
+    position: absolute;
+    top:90px;
+    right:150px;
+}
+#search-bar input[type='text']{
+    color:black;
+    background-color: white;
+    height:30px;
+    width:300px;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    height:50px;
+    font-size: 20px;
+}
+#search-bar button{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    margin-top: 0px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: white;
+    height:50px;
+    width: 55px;
+    border:none;
+    cursor: pointer;
+}
+#search-bar button:hover{
+    background-color: rgba(206, 201, 201,1);
+}
+#menubar{
+    position: absolute;
+    list-style-type: none;
+    background-color: #333;
+    width: 100%;
+}
+#menubar li{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+#menubar li a{
+    display: block;
+    padding: 10px 53.7px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#menubar li:hover{
+    background-color: rgb(138, 109, 109);
+}
+#menubar li:active{
+    background-color: brown;
+}
